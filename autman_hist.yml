@@ -1,0 +1,9 @@
+name: pdftotext
+channels:
+  - defaults
+dependencies:
+  - poppler
+  - notebook
+  - ipykernel
+  - pandas
+prefix: /home/philipp/miniconda3/envs/pdftotext
