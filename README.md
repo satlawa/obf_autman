@@ -32,6 +32,8 @@ where key is the attribute key and xxx is the data to be extracted
     conda install -c conda-forge pdftotext
     conda install -c conda-forge pandas
     conda install -c conda-forge ipykernel
+    conda install openpyxl
+    conda install xlrd
     ```
 1. Install kernel in Jupyter Notebook
     `python -m ipykernel install --user --name autman`
