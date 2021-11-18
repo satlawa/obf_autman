@@ -24,16 +24,13 @@ where key is the attribute key and xxx is the data to be extracted
 1. Update conda:
     `conda update conda`
 1. Create the environment. Call it pdftotext and install python 3 (*hence the name*):
-    `conda create -n autman`
+    `conda env create -f autman.yml`
 1. Activate the enviroment:
     `conda activate autman`
 1. Install packages:
     ```
-    conda install -c conda-forge pdftotext
-    conda install -c conda-forge pandas
-    conda install -c conda-forge ipykernel
+    conda install ipykernel
     conda install openpyxl
-    conda install xlrd
     ```
 1. Install kernel in Jupyter Notebook
     `python -m ipykernel install --user --name autman`
